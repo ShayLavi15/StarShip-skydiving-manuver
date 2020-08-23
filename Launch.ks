@@ -13,7 +13,7 @@ function launch {
     parameter landingpad.
     set APPID:setpoint to apo.
     sas off.
-  return "APOGEE". 
+  //return "APOGEE". 
    //return "Coast_Complete". 
 if SSstat = "MECO" set APPID:maxoutput to 0.25.
 lock steering to up + R(0,0,landingpad:heading).
